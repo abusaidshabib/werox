@@ -26,12 +26,6 @@
   grid-gap: 1rem;
 }
 
-/* .menu-div li{
-  display: grid;
-  justify-content: center;
-  align-items: center;
-} */
-
 .menu-div .menu-text{
   text-decoration: none;
   font-size: var(--font14);

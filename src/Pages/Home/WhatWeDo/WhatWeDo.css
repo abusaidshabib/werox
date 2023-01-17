@@ -2,6 +2,7 @@
     width: 100%;
     padding: var(--bothGaps);
     margin: 5rem 0;
+    text-align: center;
 }
 
 .title{
@@ -16,20 +17,12 @@
     color: var(--darkBlue);
 }
 
-.heighlight-words{
+.highlight_word{
     color: var(--lightTeal);
 }
 
-.sub-title{
-    text-transform: uppercase;
-    letter-spacing: .3rem;
-    text-align: center;
-    font-size: 1.3rem;
-}
-
-.details{
-    font-size: 1.5rem;
-    line-height: 1.5;
+.topGaps5{
+    padding-top: 5rem;
 }
 .details span{
     font-weight: bold;
