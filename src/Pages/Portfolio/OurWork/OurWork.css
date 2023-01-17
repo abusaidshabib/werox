@@ -6,7 +6,7 @@
   align-items: center;
   text-align: center;
   background-color: var(--darkBlue);
-  color: white;
+  color: var(--white);
 }
 
 .our_work_div p {
