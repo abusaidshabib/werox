@@ -1,0 +1,8 @@
+.work_div{
+  text-align: center; 
+}
+
+.folio_div{
+  display: grid;
+  grid-template-columns: 8fr 4fr;
+}
