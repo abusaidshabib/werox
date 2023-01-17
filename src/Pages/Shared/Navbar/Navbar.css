@@ -1,8 +1,8 @@
 .top-nav {
   width: 100vw;
   height: 10vh;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   position: absolute;
   background-color: #ffffff;
@@ -10,14 +10,14 @@
   border-bottom: .1rem solid var(--darkBlue);
 }
 
-.top-nav-log{
+.top-nav-logo{
   display: grid;
   justify-content: left;
 }
 
-.top-nav-log img{
+/* .top-nav-logo img{
   width: 15vh;
-}
+} */
 
 .menu-div{
   list-style-type: none;

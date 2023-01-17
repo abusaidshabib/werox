@@ -1,0 +1,5 @@
+
+.hero-section{
+    min-height: 100vh;
+    background-image: linear-gradient(to right, #0D1633 50%, #119DA4 50%);
+}
