@@ -1,0 +1,37 @@
+.wh-we-do{
+    width: 100%;
+    padding: var(--bothGaps);
+    margin: 5rem 0;
+}
+
+.title{
+    text-align: center;
+    font-size: 3.2rem;
+    margin-top: 1.5rem;
+    line-height: 4rem;
+    margin-bottom: 3rem;
+}
+
+.wh-we-do .title{
+    color: var(--darkBlue);
+}
+
+.heighlight-words{
+    color: var(--lightTeal);
+}
+
+.sub-title{
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.details{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+.details span{
+    font-weight: bold;
+    color: var(--darkBlue);
+}

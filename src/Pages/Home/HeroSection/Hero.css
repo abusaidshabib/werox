@@ -1,6 +1,6 @@
-
 .hero-section{
-    min-height: 100vh;
+    width: 100%;
+    height: 100vh;
     background-image: linear-gradient(to right, #0D1633 50%, #119DA4 50%);
     padding: var(--bothGaps);
     color: #fafafa;
