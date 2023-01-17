@@ -6,7 +6,7 @@ const Hero = () => {
     return (
         <div className='hero-section'>
             <div>
-                <h1 className='hero-title'>DESIGN YOUR WEBSITE WITH <br />
+                <h1 className='hero-title '>DESIGN YOUR WEBSITE WITH <br />
                     HOSTING AND USE BEST MARKETING<br />
                     STRATEGY
                 </h1>
@@ -22,7 +22,7 @@ const Hero = () => {
                             <Link className="primary-btn">
                                     Portfolio
                             </Link>
-                            <p>or</p>
+                            <p className='or'><b>or,</b></p>
                             <Link className="hero-contact">
                                     Contact Us
                             </Link>

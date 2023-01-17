@@ -1,7 +1,8 @@
 .work_div{
-  text-align: center; 
+  text-align: center;
+  color: var(--darkBlue);
+  padding: 10rem 0;
 }
-
 .folio_div{
   display: grid;
   grid-template-columns: 8fr 4fr;
