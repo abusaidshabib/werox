@@ -4,13 +4,13 @@ import './Hero.css';
 
 const Hero = () => {
     return (
-        <div className='hero-section grid items-center text-center md:text-left text-white py-20 px-16 md:px-24 lg:px-28 xl:px-32 2xl:pl-48 2xl:py-28 min-h-screen'>
+        <div className='hero-section'>
             <div>
-                <h1 className='text-2xl md:text-4xl lg:text-5xl 2xl:text-6xl font-bold md:leading-snug lg:leading-snug 2xl:leading-snug mb-16'>DESIGN YOUR WEBSITE WITH <br />
+                <h1 className='hero-title'>DESIGN YOUR WEBSITE WITH <br />
                     HOSTING AND USE BEST MARKETING<br />
                     STRATEGY
                 </h1>
-                <div className='w-1/5 bg-white h-1'>
+                <div className='underline w-1/5 bg-white h-1'>
 
                 </div>
                 <div className='grid md:grid-cols-2 grid-cols-1 2xl:mt-10'>

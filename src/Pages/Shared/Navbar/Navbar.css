@@ -5,9 +5,9 @@
   justify-content: space-between;
   align-items: center;
   position: absolute;
-  background-color: #ffffff;
+  background-color: #fafafa;
   padding: var(--bothGaps);
-  border-bottom: .1rem solid var(--darkBlue);
+  /* border-bottom: .1rem solid var(--darkBlue); */
 }
 
 .top-nav-logo{
@@ -15,9 +15,9 @@
   justify-content: left;
 }
 
-/* .top-nav-logo img{
-  width: 15vh;
-} */
+.top-nav-logo img{
+  width: 20vh;
+}
 
 .menu-div{
   list-style-type: none;
