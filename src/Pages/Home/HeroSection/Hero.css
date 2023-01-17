@@ -2,4 +2,21 @@
 .hero-section{
     min-height: 100vh;
     background-image: linear-gradient(to right, #0D1633 50%, #119DA4 50%);
+    padding: var(--bothGaps);
+    color: #fafafa;
+    display: grid;
+    align-items: center;
+}
+
+.hero-title{
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 4rem;
+}
+
+.underline{
+    width: 2rem;
+    height: 1rem;
+    background: #fafafa;
 }
