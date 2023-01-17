@@ -12,11 +12,61 @@
     font-size: 5rem;
     font-weight: 700;
     line-height: 1.3;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 .underline{
-    width: 2rem;
-    height: 1rem;
+    width: 16%;
+    height: 5px;
     background: #fafafa;
+    margin-bottom: 3rem;
 }
+
+.hero-detail{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.hero-para{
+    font-size: 1.5rem;
+    padding-right: 5rem;
+    line-height: 1.5;
+    margin-bottom: 3rem;
+}
+
+.hero-links{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.hero-contact{
+    position: relative;
+    padding-bottom: .8rem;
+    border: 0;
+    border-radius: .5rem;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: #fafafa;
+    font-weight: 500;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    z-index: 1;
+    transition: 0.3s;
+  }
+  
+  .hero-contact::after{
+    content: '';
+    position: absolute;
+    width: 50%;
+    bottom: 0;
+    left: 0;
+    height: .2rem;
+    background: #ffffff;
+    z-index: -1;
+    transition: 0.3s;
+  }
+
+  .hero-contact:hover::after{
+    width: 100%;
+  }
