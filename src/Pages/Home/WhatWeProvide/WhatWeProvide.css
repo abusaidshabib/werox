@@ -1,0 +1,112 @@
+.wh-we-pro{
+    width: 100%;
+    min-height: 100vh;
+    background: var(--darkBlue);
+    color: #fafafa;
+    padding: var(--bothGaps);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin: 5rem 0;
+    text-align: center;
+}
+
+.service-card-container{
+    position: relative;
+    width: 100%;
+    height: 750px;
+    padding-top: 10rem;
+}
+
+.service-card{
+    position: absolute;
+    display: grid;
+    width: 300px;
+    height: 200px;
+    background: var(--lightTeal);
+    color: var(--darkBlue);
+    border-radius: 1.5rem;
+    padding: 2.5rem 1.4rem;
+    text-align: center;
+}
+
+.s-title{
+    position: relative;
+    font-size: 2rem;
+}
+
+.s-title::before{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 0.2rem;
+    background: var(--darkBlue);
+    right: 0;
+    bottom: 0.5rem;
+}
+
+.service-card .skills{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-end;
+    justify-content: center;
+    font-size: 1.3rem;
+    gap: 0.3rem 1rem;
+}
+
+#service1{
+    background: var(--lightTeal);
+    box-shadow: 3px 3px 12px var(--lightTeal);
+}
+#service2{
+    background: var(--lightTeal);
+    box-shadow: 3px 3px 12px var(--lightTeal);
+    right: 0;
+}
+#service3{
+    background: var(--lightTeal);
+    box-shadow: 3px 3px 12px var(--lightTeal);
+    left: calc(50% - 150px);
+    top: 300px;
+}
+#service4{
+    background: var(--lightTeal);
+    box-shadow: 3px 3px 12px var(--lightTeal);
+    top: 500px;
+}
+#service5{
+    background: var(--lightTeal);
+    box-shadow: 3px 3px 12px var(--lightTeal);
+    right: 0;
+    top: 500px;
+}
+
+.hire-text{
+    margin-top: 3rem;
+    font-size: 1.6rem;
+}
+
+.hire-text a{
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 2rem;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: var(--darkBlue);
+    padding: 1rem 1.5rem;
+    background: var(--lightTeal);
+    z-index: 1;
+    transition: top 0.3s;
+}
+
+.hire-text a:hover{
+    top: -2px;
+    box-shadow: 0.3rem 0.3rem 0rem 0.2rem #0b686b;
+}
+
+.hire-text a:active{
+    top: 0;
+    box-shadow: 0.3rem 0.3rem 0rem 0.1rem #0b686b;
+}
