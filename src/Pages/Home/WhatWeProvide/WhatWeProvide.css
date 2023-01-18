@@ -45,7 +45,6 @@
 }
 
 .service-card .skills{
-    list-style: none;
     display: flex;
     flex-wrap: wrap;
     align-self: flex-end;
@@ -191,7 +190,6 @@
 
 .hire-text a{
     position: relative;
-    text-decoration: none;
     text-transform: uppercase;
     margin-left: 2rem;
     border-radius: 5px;

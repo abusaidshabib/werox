@@ -14,10 +14,6 @@
     gap: 7rem 30rem;
 }
 
-.exp{
-    list-style: none;
-}
-
 .exp .value{
     font-size: 5rem;
     font-weight: bold;

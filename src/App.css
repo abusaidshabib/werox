@@ -36,6 +36,14 @@ html {
   font-size: 62.5%;
 }
 
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
 .App {
   font-family: 'Poppins', sans-serif;
   width: 100%;
@@ -84,7 +92,6 @@ html {
   color: var(--darkBlue);
   font-weight: 500;
   letter-spacing: .2rem;
-  text-decoration: none;
 }
 
 .primary-btn {
@@ -97,5 +104,4 @@ html {
   color: var(--white);
   font-weight: 500;
   letter-spacing: .2rem;
-  text-decoration: none;
 }

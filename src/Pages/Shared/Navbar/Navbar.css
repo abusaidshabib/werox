@@ -20,14 +20,12 @@
 }
 
 .menu-div{
-  list-style-type: none;
   display: flex;
   grid-template-columns: repeat(5,1fr);
   grid-gap: 1rem;
 }
 
 .menu-div .menu-text{
-  text-decoration: none;
   font-size: var(--font14);
   letter-spacing: .2rem;
   text-transform: uppercase;
