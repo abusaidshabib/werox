@@ -59,24 +59,24 @@
     box-shadow: 3px 3px 12px var(--lightTeal);
 }
 #service2{
-    background: var(--lightTeal);
-    box-shadow: 3px 3px 12px var(--lightTeal);
+    background: var(--red);
+    box-shadow: 3px 3px 12px var(--red);
     right: 0;
 }
 #service3{
-    background: var(--lightTeal);
-    box-shadow: 3px 3px 12px var(--lightTeal);
+    background: var(--green);
+    box-shadow: 3px 3px 12px var(--green);
     left: calc(50% - 150px);
     top: 300px;
 }
 #service4{
-    background: var(--lightTeal);
-    box-shadow: 3px 3px 12px var(--lightTeal);
+    background: var(--orange);
+    box-shadow: 3px 3px 12px var(--orange);
     top: 500px;
 }
 #service5{
-    background: var(--lightTeal);
-    box-shadow: 3px 3px 12px var(--lightTeal);
+    background: var(--white);
+    box-shadow: 3px 3px 12px var(--white);
     right: 0;
     top: 500px;
 }
