@@ -20,7 +20,7 @@
 .underline{
     width: 16%;
     height: .3rem;
-    background: #fafafa;
+    background: var(--white);
     margin-bottom: 5rem;
 }
 

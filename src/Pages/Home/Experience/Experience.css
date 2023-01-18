@@ -1,0 +1,28 @@
+.experience-container{
+    background: var(--white);
+    color: var(--darkBlue);
+    padding: var(--bothGaps);
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.exp-list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 7rem 30rem;
+}
+
+.exp{
+    list-style: none;
+}
+
+.exp .value{
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.exp .ex-title{
+    font-size: 1.8rem;
+}
