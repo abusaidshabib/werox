@@ -6,7 +6,6 @@
     padding: var(--bothGaps);
     padding-top: 5rem;
     padding-bottom: 5rem;
-    margin: 5rem 0;
     text-align: center;
 }
 
@@ -27,6 +26,7 @@
     border-radius: 1.5rem;
     padding: 2.5rem 1.4rem;
     text-align: center;
+    cursor: pointer;
 }
 
 .s-title{
@@ -56,29 +56,132 @@
 
 #service1{
     background: var(--lightTeal);
-    box-shadow: 3px 3px 12px var(--lightTeal);
+    box-shadow: 0 5px 15px 0px var(--lightTeal);
 }
+
+#service1:hover{
+    animation: float1 2s infinite;
+}
+
+@keyframes float1 {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(17, 157, 164, 0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 20px 25px 15px 0px rgba(17, 157, 164, 0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(17, 157, 164, 0.6);
+		transform: translatey(0px);
+	}
+}
+
 #service2{
     background: var(--red);
-    box-shadow: 3px 3px 12px var(--red);
+    box-shadow: 0 5px 15px 0px var(--red);
     right: 0;
 }
+
+#service2:hover{
+    animation: float2 2s infinite;
+}
+
+@keyframes float2 {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(201, 66, 19, 0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 20px 25px 15px 0px rgba(201, 66, 19, 0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(201, 66, 19, 0.6);
+		transform: translatey(0px);
+	}
+}
+
+
 #service3{
     background: var(--green);
-    box-shadow: 3px 3px 12px var(--green);
+    box-shadow: 0 5px 15px 0px var(--green);
     left: calc(50% - 150px);
     top: 300px;
 }
+
+#service3:hover{
+    animation: float3 2s infinite;
+}
+
+@keyframes float3 {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(4, 231, 98, 0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 20px 25px 15px 0px rgba(4, 231, 98, 0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(4, 231, 98, 0.6);
+		transform: translatey(0px);
+	}
+}
+
 #service4{
     background: var(--orange);
-    box-shadow: 3px 3px 12px var(--orange);
+    box-shadow: 0 5px 15px 0px var(--orange);
     top: 500px;
 }
+
+#service4:hover{
+    animation: float4 2s infinite;
+}
+
+
+@keyframes float4 {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(245, 183, 0, 0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 20px 25px 15px 0px rgba(245, 183, 0, 0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(245, 183, 0, 0.6);
+		transform: translatey(0px);
+	}
+}
+
+
 #service5{
     background: var(--white);
-    box-shadow: 3px 3px 12px var(--white);
+    box-shadow: 0 5px 15px 0px var(--white);
     right: 0;
     top: 500px;
+}
+
+#service5:hover{
+    animation: float5 2s infinite;
+}
+
+
+@keyframes float5 {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(252, 250, 249, 0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 20px 25px 15px 0px rgba(252, 250, 249, 0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(252, 250, 249, 0.6);
+		transform: translatey(0px);
+	}
 }
 
 .hire-text{
@@ -98,7 +201,7 @@
     padding: 1rem 1.5rem;
     background: var(--lightTeal);
     z-index: 1;
-    transition: top 0.3s;
+    transition: all 0.3s;
 }
 
 .hire-text a:hover{
