@@ -2,12 +2,12 @@
   /* web color */
   --darkBlue: #0D1633;
   --lightTeal: #119DA4;
-  --white: #FCFAF9;
+  --white: #fcfaf9;
 
   /* card color */
-  --orange: #F5B700;
-  --green: #04E762;
-  --red: #C94277;
+  --orange: #f5b700;
+  --green: #04e762;
+  --red: #c94277;
 
 
   /* Text Color */
@@ -36,6 +36,14 @@ html {
   font-size: 62.5%;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .App {
   font-family: 'Poppins', sans-serif;
   width: 100%;
@@ -43,9 +51,8 @@ html {
 
 /* subtitle */
 
-.subTitle{
+.subTitle {
   font-size: var(--font18);
-  line-height: 3rem;
   padding-bottom: 1rem;
 }
 
@@ -54,15 +61,13 @@ html {
 .title1 {
   font-size: var(--font72);
   font-weight: 600;
-  line-height: 9rem;
   letter-spacing: .2rem;
   text-transform: uppercase;
 }
 
-.title2{
+.title2 {
   font-size: var(--font64);
   font-weight: 600;
-  line-height: 7.2rem;
 }
 
 
@@ -70,7 +75,6 @@ html {
 
 .para1 {
   font-size: var(--font22);
-  line-height: 4rem;
 }
 
 /* buttons */
@@ -84,7 +88,6 @@ html {
   color: var(--darkBlue);
   font-weight: 500;
   letter-spacing: .2rem;
-  text-decoration: none;
 }
 
 .primary-btn {
@@ -97,5 +100,52 @@ html {
   color: var(--white);
   font-weight: 500;
   letter-spacing: .2rem;
-  text-decoration: none;
+}
+
+@media screen and (min-width: 200px) {
+  html {
+    font-size: 30%;
+  }
+
+}
+
+@media screen and (min-width: 428px) {
+  html {
+    font-size: 35%;
+  }
+
+}
+
+@media screen and (min-width: 601px) {
+  html {
+    font-size: 45%;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+
+}
+
+@media screen and (min-width: 1366px) {
+  html {
+    font-size: 58%;
+  }
+
+}
+
+@media screen and (min-width: 1440px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  html {
+    font-size: 70%;
+  }
+
 }

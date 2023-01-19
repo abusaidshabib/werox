@@ -7,7 +7,6 @@
   position: absolute;
   background-color: var(--white);
   padding: var(--bothGaps);
-  /* border-bottom: .1rem solid var(--darkBlue); */
 }
 
 .top-nav-logo{
@@ -37,4 +36,15 @@
 .btn-div{
   display: grid;
   justify-content: right;
+}
+
+@media screen and (max-width: 962px) {
+  .menu-div{
+    display: none;
+  }
+
+  .btn-div{
+    display: none;
+  }
+
 }

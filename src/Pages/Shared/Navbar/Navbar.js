@@ -2,6 +2,7 @@ import React from 'react';
 import './Navbar.css';
 import logo from '../../../assets/Logo.svg';
 import { Link, NavLink } from 'react-router-dom';
+import { HiMenuAlt3 } from 'react-icons/hi';
 
 const Navbar = () => {
   return (
@@ -28,6 +29,9 @@ const Navbar = () => {
       </ul>
       <div className='btn-div'>
         <Link className='outline-btn'>Contact Us</Link>
+      </div>
+      <div>
+        <p>demo</p>
       </div>
     </div>
   );
